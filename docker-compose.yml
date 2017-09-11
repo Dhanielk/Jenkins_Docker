@@ -9,7 +9,7 @@ services:
     build: .
     restart: unless-stopped
     ports:
-      - target: 8080
+      - target: 7777
         published: 8080
         protocol: tcp
         mode: host
